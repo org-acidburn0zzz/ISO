@@ -7,7 +7,7 @@
 [Release archive](https://github.com/endeavouros-team/ISO/releases/tag/1-EndeavourOS-ISO-releases-archive)
 
 
-How tp handle ISO releases:
+How to handle ISO releases:
 
 import private key:
 `gpg --import private_key_endeavour.gpg`
