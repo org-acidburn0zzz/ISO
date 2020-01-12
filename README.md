@@ -1,6 +1,6 @@
 # ISO For EndeavourOS
 
-[![Maintenance](https://img.shields.io/maintenance/yes/2019.svg)]()
+[![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)]()
 
 [EndeavourOS download page](https://endeavouros.com/latest-release)
 
