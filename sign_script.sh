@@ -5,6 +5,7 @@ ISO_NAME=$(ls ../iso_sign)
 LOCAL_PATH="../iso_sign"
 GITHUB_DOWNLOAD="https://github.com/endeavouros-team/ISO/releases/download/1-EndeavourOS-ISO-releases-archive/"
 
+cd $LOCAL_PATH
 _sign(){
 gpg --default-key info@endeavouros.com --output $ISO_NAME.sig --detach-sig $ISO_NAME
 
