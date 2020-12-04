@@ -6,7 +6,7 @@
 
 [Release archive](https://github.com/endeavouros-team/ISO/releases/tag/1-EndeavourOS-ISO-releases-archive)
 
-[![Live-Session-Screenshot](https://raw.githubusercontent.com/endeavouros-team/screenshots/master/Live-Session-EndeavourOS.png)
+[Live-Session-Screenshot](https://raw.githubusercontent.com/endeavouros-team/screenshots/master/Live-Session-EndeavourOS.png)
 
 ---
 
