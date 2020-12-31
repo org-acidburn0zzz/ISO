@@ -5,6 +5,7 @@
 [EndeavourOS download page](https://endeavouros.com/latest-release)
 
 [Release archive](https://github.com/endeavouros-team/ISO/releases/tag/1-EndeavourOS-ISO-releases-archive)
+
 [Development Releases](https://github.com/endeavouros-team/ISO/releases/tag/0-EndeavourOS-development-ISO-releases)
 
 ![Live-Session-Screenshot](https://raw.githubusercontent.com/endeavouros-team/screenshots/master/Live-Session-EndeavourOS.png)
