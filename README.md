@@ -20,19 +20,19 @@ import private key:
 
 sign the iso-file:
 
-`gpg --default-key info@endeavouros.com --output endeavouros-2019.12.03-x86_64.iso.sig --detach-sig endeavouros-2019.12.03-x86_64.iso`
+`gpg --default-key info@endeavouros.com --output endeavouros-2021.02.02-x86_64.iso --detach-sig endeavouros-2021.02.02-x86_64.iso`
 
 verify:
 
 for check:
 `gpg  --recv CB23504F`
-`gpg --verify endeavouros-2019.12.03-x86_64.iso.sig`
+`gpg --verify endeavouros-2021.02.02-x86_64.iso.sig`
 
-md5sum creation:
+sha512sum creation:
 
-`md5sum endeavouros-2019.12.03-x86_64.iso > endeavouros-2019.12.03-x86_64.iso.md5sum`
+`sha512sum endeavouros-2019.12.03-x86_64.iso > endeavouros-2021.02.02-x86_64.iso.sha512sum`
 
 
 create torrent:
 
-`mktorrent --announce=udp://tracker.openbittorrent.com:80 -a udp://tracker.leechers-paradise.org:6969/announce -c endeavouros-2019.12.03-x86_64.iso -n endeavouros-2019.12.03-x86_64.iso -o endeavouros-2019.12.03-x86_64.iso.torrent -v ~/ENDEAVOUROS/ISO/endeavouros-2019.12.03-x86_64/endeavouros-2019.12.03-x86_64.iso -w https://github.com/endeavouros-team/ISO/releases/download/1-EndeavourOS-ISO-releases-archive/endeavouros-2019.12.03-x86_64.iso -p`
+`mktorrent --announce=udp://tracker.openbittorrent.com:80 -a udp://tracker.torrent.eu.org:451/announce -a udp://thetracker.org:80/announce -a udp://tracker.dutchtracking.com:6969/announce -a udp://tracker.opentrackr.org:1337/announce -c endeavouros-2021.02.02-x86_64.iso -n endeavouros-2021.02.02-x86_64.iso -o endeavouros-2021.02.02-x86_64.iso.torrent -v /path/to/iso/endeavouros-2021.02.02-x86_64.iso -w https://mirror.alpix.eu/endeavouros/iso/endeavouros-2021.02.02-x86_64.iso -p` 
