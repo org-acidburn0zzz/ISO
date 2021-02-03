@@ -26,6 +26,7 @@ verify:
 
 for check:
 `gpg  --recv CB23504F`
+
 `gpg --verify endeavouros-2021.02.02-x86_64.iso.sig`
 
 sha512sum creation:
